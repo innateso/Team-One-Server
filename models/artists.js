@@ -3,10 +3,13 @@ const mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
 var ArtistsSchema = new Schema({
-  firstname: String,
-  lastname: String,
+  firstName: String,
+  lastName: String,
+  coverImage: String,
   description: String,
-  image: String,
+  coverTitle: String,
+  DateOfBirth: String,
+  DateOfDeath: String,
 });
 
 // singular capitalized name for the mongo collection - artists
