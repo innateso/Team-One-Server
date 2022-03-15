@@ -1,10 +1,9 @@
 const mongoose = require("mongoose");
 
 // start editable
-
 // as defined in 'Database Access' on Atlas/Mongo
 
-const dbname = "Formativetwo";
+const dbname = "artistcollection";//or "Formativetwo"
 const username = "yoobeeteamone";
 const password = "yoobeeteamone";
 

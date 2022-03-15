@@ -6,7 +6,7 @@ var ArtistsSchema = new Schema({
   firstName: String,
   lastName: String,
   coverImage: String,
-  description: String,
+  Description: String,
   coverTitle: String,
   DateOfBirth: String,
   DateOfDeath: String,
